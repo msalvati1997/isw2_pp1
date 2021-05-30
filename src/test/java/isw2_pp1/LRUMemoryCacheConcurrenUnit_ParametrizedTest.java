@@ -53,8 +53,6 @@ public static void Configure()
 public void runTestForRegion()
         throws Exception
     {
-    	String log4jConfPath = System.getProperty("user.dir")+"/src/conf/log4j.properties";
-	PropertyConfigurator.configure(log4jConfPath);
     	CompositeCacheManager cacheMgr = CompositeCacheManager.getUnconfiguredInstance();
         cacheMgr.configure( "/TestDiskCache.ccf" );
         CompositeCache cache = cacheMgr.getCache( region );
