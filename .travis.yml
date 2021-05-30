@@ -1,4 +1,4 @@
 language: java
 sudo: false
 script: 
-  - mvn clean install -Pcoverage  -Dlog4j.configuration=${project.basedir}/src/conf/log4j.properties
+  - mvn clean install -Pcoverage  
