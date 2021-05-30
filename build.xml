@@ -12,9 +12,6 @@
     <path id="Maven Dependencies.libraryclasspath">
         <pathelement location="../../.m2/repository/log4j/apache-log4j-extras/1.2.17/apache-log4j-extras-1.2.17.jar"/>
         <pathelement location="../../.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
-        <pathelement location="../../.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.7/log4j-slf4j-impl-2.7.jar"/>
-        <pathelement location="../../.m2/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar"/>
-        <pathelement location="../../.m2/repository/org/apache/logging/log4j/log4j-api/2.7/log4j-api-2.7.jar"/>
         <pathelement location="../../.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar"/>
         <pathelement location="../../.m2/repository/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.jar"/>
         <pathelement location="../../.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar"/>
