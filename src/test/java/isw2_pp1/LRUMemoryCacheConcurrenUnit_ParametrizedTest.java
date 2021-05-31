@@ -36,7 +36,6 @@ public class LRUMemoryCacheConcurrenUnit_ParametrizedTest {
 @BeforeClass
 public static void Configure()
 {
-    BasicConfigurator.configure();
     JCS.setConfigFilename( "/TestDiskCache.ccf" );
 }
 

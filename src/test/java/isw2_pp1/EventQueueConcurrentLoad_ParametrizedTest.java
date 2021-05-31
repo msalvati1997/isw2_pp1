@@ -58,7 +58,6 @@ public class EventQueueConcurrentLoad_ParametrizedTest  {
          */
         public static void configure()
         {
-	    BasicConfigurator.configure();
             listen = new CacheListenerImpl();
             queue = new CacheEventQueue( listen, 1L, "testCache1", maxFailure, waitBeforeRetry );
             queue.setWaitToDieMillis( idleTime );
