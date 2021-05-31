@@ -11,6 +11,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.apache.jcs.engine.CacheElement;
 import org.apache.jcs.engine.CacheEventQueue;
+import org.apache.log4j.BasicConfigurator;
 
 
 /**
@@ -57,6 +58,7 @@ public class EventQueueConcurrentLoad_ParametrizedTest  {
          */
         public static void configure()
         {
+	    BasicConfigurator.configure();
             listen = new CacheListenerImpl();
             queue = new CacheEventQueue( listen, 1L, "testCache1", maxFailure, waitBeforeRetry );
             queue.setWaitToDieMillis( idleTime );
