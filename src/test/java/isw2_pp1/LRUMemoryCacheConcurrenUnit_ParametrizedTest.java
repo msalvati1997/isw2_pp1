@@ -15,7 +15,7 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
+import org.apache.log4j.BasicConfigurator;
 @RunWith(value=Parameterized.class)
 public class LRUMemoryCacheConcurrenUnit_ParametrizedTest {
     private static int items = 200;
@@ -36,6 +36,7 @@ public class LRUMemoryCacheConcurrenUnit_ParametrizedTest {
 @BeforeClass
 public static void Configure()
 {
+    BasicConfigurator.configure();
     JCS.setConfigFilename( "/TestDiskCache.ccf" );
 }
 
