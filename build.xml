@@ -85,11 +85,13 @@
         <mkdir dir="target/test-classes"/>
         <copy includeemptydirs="false" todir="target/classes">
             <fileset dir="src/main/java">
+                <exclude name="**/*.launch"/>
                 <exclude name="**/*.java"/>
             </fileset>
         </copy>
         <copy includeemptydirs="false" todir="target/test-classes">
             <fileset dir="src/test/java">
+                <exclude name="**/*.launch"/>
                 <exclude name="**/*.java"/>
             </fileset>
         </copy>
