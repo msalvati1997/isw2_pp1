@@ -12,19 +12,42 @@
      <maven.compiler.target>1.8</maven.compiler.target>
 </properties>
   <dependencies>
-  <!-- https://mvnrepository.com/artifact/log4j/apache-log4j-extras -->
-<dependency>
-    <groupId>log4j</groupId>
-    <artifactId>apache-log4j-extras</artifactId>
-    <version>1.2.17</version>
-</dependency>
+ <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.12</version>
+      <type>jar</type>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
   <!-- https://mvnrepository.com/artifact/log4j/log4j -->
-<dependency>
-    <groupId>log4j</groupId>
-    <artifactId>log4j</artifactId>
-    <version>1.2.17</version>
-</dependency>
-  
+
+     <dependency>
+      <groupId>commons-configuration</groupId>
+      <artifactId>commons-configuration</artifactId>
+      <version>1.4</version>
+      <type>jar</type>
+      <scope>test</scope>
+    </dependency>
+
+    <!--  REQUIRED FOR JCS CORE -->
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.1</version>
+      <type>jar</type>
+      <scope>compile</scope>
+    </dependency>
+
+    <!--  REQUIRED FOR JCS CORE -->
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.1</version>
+      <type>jar</type>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
 
      <dependency>
             <groupId>junit</groupId>
