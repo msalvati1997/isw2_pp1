@@ -71,12 +71,11 @@
         <pathelement location="target/classes"/>
         <pathelement location="target/test-classes"/>
         <path refid="Maven Dependencies.libraryclasspath"/>
-        <pathelement location="src/test-conf/TestDiskCache.ccf"/>
+
     </path>
     <path id="run.EventQueueConcurrentLoad_ParametrizedTest (1).classpath">
         <path refid="isw2_pp1.classpath"/>
         <path refid="Maven Dependencies.libraryclasspath"/>
-        <pathelement location="src/test-conf/TestDiskCache.ccf"/>
     </path>
     <path id="run.isw2_pp1.classpath">
         <path refid="isw2_pp1.classpath"/>
@@ -85,12 +84,6 @@
     <target name="init">
         <mkdir dir="target/classes"/>
         <mkdir dir="target/test-classes"/>
-        <copy includeemptydirs="false" todir="target/classes">
-            <fileset dir="src/main/java">
-                <exclude name="**/*.launch"/>
-                <exclude name="**/*.java"/>
-            </fileset>
-        </copy>
         <copy includeemptydirs="false" todir="target/test-classes">
             <fileset dir="src/test/java">
                 <exclude name="**/*.launch"/>
@@ -107,10 +100,7 @@
     <target name="build-subprojects"/>
     <target depends="init" name="build-project">
         <echo message="${ant.project.name}: ${ant.file}"/>
-        <javac debug="true" debuglevel="${debuglevel}" destdir="target/classes" includeantruntime="false" source="${source}" target="${target}">
-            <src path="src/main/java"/>
-            <classpath refid="isw2_pp1.classpath"/>
-        </javac>
+       
         <javac debug="true" debuglevel="${debuglevel}" destdir="target/test-classes" includeantruntime="false" source="${source}" target="${target}">
             <src path="src/test/java"/>
             <classpath refid="isw2_pp1.classpath"/>

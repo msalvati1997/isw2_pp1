@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="DESKTOP-JGK2QC5" name="isw2_pp1.EventQueueConcurrentLoad_ParametrizedTest" skipped="0" tests="1" time="0.0" timestamp="2021-06-01T09:05:08">
+  <properties>
+    <property name="ant.library.dir" value="C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="8" />
+    <property name="env.USERPROFILE" value="C:\Users\salva" />
+    <property name="java.specification.version" value="15" />
+    <property name="ant.project.name" value="isw2_pp1" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.JAVA_JDK" value="C:\Program Files\Java\jdk1.8.0_271" />
+    <property name="env.GOPATH" value="C:\Users\salva\OneDrive\Desktop\go-workspace" />
+    <property name="sun.boot.library.path" value="C:\Users\salva\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1622538304441 -Declipse.connect.port=53509 -Dant.home=C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\salva\git\isw2_pp1\build.xml clean isw2_pp1 build EventQueueConcurrentLoad_ParametrizedTest (1)" />
+    <property name="jdk.debug" value="release" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2021-01-19" />
+    <property name="env.JAVA_HOME" value="C:\Java\jdk1.8.0_271" />
+    <property name="java.home" value="C:\Users\salva\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre" />
+    <property name="basedir" value="C:\Users\salva\git\isw2_pp1" />
+    <property name="file.separator" value="\" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\salva\AppData\Local" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-JGK2QC5" />
+    <property name="env.PROCESSOR_REVISION" value="7e05" />
+    <property name="user.script" value="" />
+    <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 126 Stepping 5, GenuineIntel" />
+    <property name="java.runtime.version" value="15.0.2+7-27" />
+    <property name="user.name" value="salva" />
+    <property name="ant.file.isw2_pp1" value="C:\Users\salva\git\isw2_pp1\build.xml" />
+    <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="env.ZOOKEEPER_HOME" value="C:\Apache\apache-zookeeper-3.6.2-bin" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="env.COMPUTERNAME" value="DESKTOP-JGK2QC5" />
+    <property name="env.HOMEPATH" value="\Users\salva" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="env.APPDATA" value="C:\Users\salva\AppData\Roaming" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="java.io.tmpdir" value="C:\Users\salva\AppData\Local\Temp\" />
+    <property name="java.version" value="15.0.2" />
+    <property name="ant.file.type.isw2_pp1" value="file" />
+    <property name="env.Path" value="C:/Users/salva/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/salva/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Wolfram Research\WolframScript\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\MinGW\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Go\bin;C:\Java\jdk1.8.0_271\bin;%JRE_HOME%\bin;%ZOOKEEPER_HOME%\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\sonar-scanner-4.4.0.2170-windows\bin;C:\Program Files\Git\cmd;C:\Apache\apache-maven-3.6.3\bin;C:\Users\salva\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\salva\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\salva\AppData\Local\Microsoft\WindowsApps;C:\Users\salva\go\bin;C:\Users\salva\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\salva\.dotnet\tools;C:\Users\salva\AppData\Local\GitHubDesktop\bin;C:\Program Files\sonar-scanner-4.4.0.2170-windows\bin;;C:\Users\salva\eclipse\java-2020-12\eclipse;" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+    <property name="env.TMP" value="C:\Users\salva\AppData\Local\Temp" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+    <property name="java.library.path" value="C:\Users\salva\eclipse\java-2020-12\eclipse;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Wolfram Research\WolframScript\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\MinGW\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Go\bin;C:\Java\jdk1.8.0_271\bin;%JRE_HOME%\bin;%ZOOKEEPER_HOME%\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\sonar-scanner-4.4.0.2170-windows\bin;C:\Program Files\Git\cmd;C:\Apache\apache-maven-3.6.3\bin;C:\Users\salva\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\salva\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\salva\AppData\Local\Microsoft\WindowsApps;C:\Users\salva\go\bin;C:\Users\salva\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\salva\.dotnet\tools;C:\Users\salva\AppData\Local\GitHubDesktop\bin;C:\Program Files\sonar-scanner-4.4.0.2170-windows\bin;;.;C:\Users\salva\eclipse\java-2020-12\eclipse\configuration\org.eclipse.osgi\415\0\.cp" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.LOGONSERVER" value="\\DESKTOP-JGK2QC5" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="env.ERLANG_HOME" value="C:\Program Files\erl-23.1" />
+    <property name="java.class.path" value="C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-antlr.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-apache-bcel.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-apache-bsf.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-apache-log4j.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-apache-oro.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-apache-regexp.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-apache-resolver.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-apache-xalan2.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-commons-logging.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-commons-net.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-imageio.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-jai.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-javamail.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-jdepend.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-jmf.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-jsch.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junitlauncher.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-netrexx.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-swing.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-testutil.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-xz.jar;C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;C:\Users\salva\eclipse\java-2020-12\eclipse\configuration\org.eclipse.osgi\106\0\.cp\lib\antdebug.jar;C:\Users\salva\eclipse\java-2020-12\eclipse\configuration\org.eclipse.osgi\106\0\.cp\lib\remote.jar;C:\Users\salva\eclipse\java-2020-12\eclipse\configuration\org.eclipse.osgi\107\0\.cp\lib\remoteAnt.jar;C:\Java\jdk1.8.0_271\lib\tools.jar;C:\Users\salva\.p2\pool\plugins\org.eclipse.swt.win32.win32.x86_64_3.115.100.v20201202-1103.jar;C:\Users\salva\.p2\pool\plugins\org.eclipse.swt.browser.chromium.win32.win32.x86_64_3.115.100.v20201202-1103.jar" />
+    <property name="source" value="15" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="user.variant" value="" />
+    <property name="env.SONAR_TOKEN" value="204f76351b6251afa977d4516784cae7d0f08bd1" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="java.vm.specification.version" value="15" />
+    <property name="os.name" value="Windows 10" />
+    <property name="user.country" value="IT" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.USERDOMAIN" value="DESKTOP-JGK2QC5" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\salva" />
+    <property name="user.language" value="it" />
+    <property name="env.JRE_HOME" value="C:\Java\jre1.8.0_271" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="ant.java.version" value="15" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.MAVEN_HOME" value="C:\Apache\apache-maven-3.6.3" />
+    <property name="env.ANT_HOME" value="C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="ant.file" value="C:\Users\salva\git\isw2_pp1\build.xml" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="ant.project.invoked-targets" value="clean,isw2_pp1,build,EventQueueConcurrentLoad_ParametrizedTest (1)" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ant.core.lib" value="C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
+    <property name="env.M2_HOME" value="C:\Apache\apache-maven-3.6.3" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="user.dir" value="C:\Users\salva\git\isw2_pp1" />
+    <property name="env.USERNAME" value="salva" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.OneDriveConsumer" value="C:\Users\salva\OneDrive" />
+    <property name="target" value="15" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vm.version" value="15.0.2+7-27" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="env.TEMP" value="C:\Users\salva\AppData\Local\Temp" />
+    <property name="java.class.version" value="59.0" />
+    <property name="env.OneDrive" value="C:\Users\salva\OneDrive" />
+    <property name="ant.project.default-target" value="build" />
+  </properties>
+  <testcase classname="isw2_pp1.EventQueueConcurrentLoad_ParametrizedTest" name="unknown" time="0.0">
+    <error message="Forked Java VM exited abnormally. Please note the time in the report does not reflect the time until the VM exit." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Forked Java VM exited abnormally. Please note the time in the report does not reflect the time until the VM exit.
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:39)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:461)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:143)
+</error>
+  </testcase>
+</testsuite>
