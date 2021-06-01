@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="DESKTOP-JGK2QC5" name="isw2_pp1.EventQueueConcurrentLoad_ParametrizedTest" skipped="0" tests="1" time="0.0" timestamp="2021-06-01T09:05:08">
+<testsuite errors="1" failures="0" hostname="DESKTOP-JGK2QC5" name="isw2_pp1.EventQueueConcurrentLoad_ParametrizedTest" skipped="0" tests="1" time="0.0" timestamp="2021-06-01T09:44:13">
   <properties>
     <property name="ant.library.dir" value="C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
     <property name="env.NUMBER_OF_PROCESSORS" value="8" />
@@ -17,7 +17,7 @@
     <property name="env.JAVA_JDK" value="C:\Program Files\Java\jdk1.8.0_271" />
     <property name="env.GOPATH" value="C:\Users\salva\OneDrive\Desktop\go-workspace" />
     <property name="sun.boot.library.path" value="C:\Users\salva\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin" />
-    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1622538304441 -Declipse.connect.port=53509 -Dant.home=C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\salva\git\isw2_pp1\build.xml clean isw2_pp1 build EventQueueConcurrentLoad_ParametrizedTest (1)" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1622540651068 -Declipse.connect.port=63428 -Dant.home=C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\salva\git\isw2_pp1\build.xml EventQueueConcurrentLoad_ParametrizedTest (1) build" />
     <property name="jdk.debug" value="release" />
     <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
@@ -65,7 +65,7 @@
     <property name="sun.os.patch.level" value="" />
     <property name="junit.output.dir" value="junit" />
     <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
-    <property name="java.library.path" value="C:\Users\salva\eclipse\java-2020-12\eclipse;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Wolfram Research\WolframScript\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\MinGW\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Go\bin;C:\Java\jdk1.8.0_271\bin;%JRE_HOME%\bin;%ZOOKEEPER_HOME%\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\sonar-scanner-4.4.0.2170-windows\bin;C:\Program Files\Git\cmd;C:\Apache\apache-maven-3.6.3\bin;C:\Users\salva\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\salva\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\salva\AppData\Local\Microsoft\WindowsApps;C:\Users\salva\go\bin;C:\Users\salva\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\salva\.dotnet\tools;C:\Users\salva\AppData\Local\GitHubDesktop\bin;C:\Program Files\sonar-scanner-4.4.0.2170-windows\bin;;.;C:\Users\salva\eclipse\java-2020-12\eclipse\configuration\org.eclipse.osgi\415\0\.cp" />
+    <property name="java.library.path" value="C:\Users\salva\eclipse\java-2020-12\eclipse;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/salva/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/salva/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Wolfram Research\WolframScript\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\MinGW\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Go\bin;C:\Java\jdk1.8.0_271\bin;%JRE_HOME%\bin;%ZOOKEEPER_HOME%\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\sonar-scanner-4.4.0.2170-windows\bin;C:\Program Files\Git\cmd;C:\Apache\apache-maven-3.6.3\bin;C:\Users\salva\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\salva\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\salva\AppData\Local\Microsoft\WindowsApps;C:\Users\salva\go\bin;C:\Users\salva\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\salva\.dotnet\tools;C:\Users\salva\AppData\Local\GitHubDesktop\bin;C:\Program Files\sonar-scanner-4.4.0.2170-windows\bin;;C:\Users\salva\eclipse\java-2020-12\eclipse;;.;C:\Users\salva\eclipse\java-2020-12\eclipse\configuration\org.eclipse.osgi\415\0\.cp" />
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="env.LOGONSERVER" value="\\DESKTOP-JGK2QC5" />
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
@@ -98,7 +98,7 @@
     <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
     <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
     <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
-    <property name="ant.project.invoked-targets" value="clean,isw2_pp1,build,EventQueueConcurrentLoad_ParametrizedTest (1)" />
+    <property name="ant.project.invoked-targets" value="EventQueueConcurrentLoad_ParametrizedTest (1),build" />
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
     <property name="ant.core.lib" value="C:\Users\salva\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
     <property name="env.M2_HOME" value="C:\Apache\apache-maven-3.6.3" />
@@ -119,7 +119,8 @@
   </properties>
   <testcase classname="isw2_pp1.EventQueueConcurrentLoad_ParametrizedTest" name="unknown" time="0.0">
     <error message="Forked Java VM exited abnormally. Please note the time in the report does not reflect the time until the VM exit." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Forked Java VM exited abnormally. Please note the time in the report does not reflect the time until the VM exit.
-	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:39)
 	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:461)

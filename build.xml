@@ -71,7 +71,8 @@
         <pathelement location="target/classes"/>
         <pathelement location="target/test-classes"/>
         <path refid="Maven Dependencies.libraryclasspath"/>
-
+    	<pathelement location="src/test-conf" />
+    	
     </path>
     <path id="run.EventQueueConcurrentLoad_ParametrizedTest (1).classpath">
         <path refid="isw2_pp1.classpath"/>
@@ -127,6 +128,7 @@
             <test name="isw2_pp1.EventQueueConcurrentLoad_ParametrizedTest" todir="${junit.output.dir}"/>
             <jvmarg line="-ea"/>
             <classpath refid="run.EventQueueConcurrentLoad_ParametrizedTest (1).classpath"/>
+          	
         </junit>
     </target>
     <target name="isw2_pp1">
@@ -136,7 +138,11 @@
             <test name="isw2_pp1.EventQueueConcurrentLoad_ParametrizedTest" todir="${junit.output.dir}"/>
             <test name="isw2_pp1.LRUMemoryCacheConcurrenUnit_ParametrizedTest" todir="${junit.output.dir}"/>
             <jvmarg line="-ea"/>
-            <classpath refid="run.isw2_pp1.classpath"/>
+            <classpath 
+            	refid="run.isw2_pp1.classpath" />
+        	<fileset dir="src/test-conf">
+        	                <include name="*.ccf"/>
+        	            </fileset>
         </junit>
     </target>
     <target name="junitreport">

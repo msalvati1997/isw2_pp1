@@ -1,6 +1,8 @@
 package isw2_pp1;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
+
+import java.io.File;
 import java.util.Arrays;
 import java.util.Collection;
 import org.apache.jcs.JCS;
@@ -53,6 +55,7 @@ public static void Configure()
 public void runTestForRegion() throws Exception
     {
     	CompositeCacheManager cacheMgr = CompositeCacheManager.getUnconfiguredInstance();
+    
         cacheMgr.configure( "/TestDiskCache.ccf" );
         CompositeCache cache = cacheMgr.getCache( region );
 
