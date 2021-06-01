@@ -2,3 +2,4 @@ language: java
 sudo: false
 script: 
   - mvn clean install -Pcoverage -X
+after_failure: print_surefire_reports.sh
