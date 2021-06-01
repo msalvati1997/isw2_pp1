@@ -104,7 +104,7 @@
 		<activation>
 			<activeByDefault>false</activeByDefault>
 		</activation>
-		<dependencies>
+				<dependencies>
 			<dependency>
 				<groupId>org.apache.jcs</groupId>
 				<artifactId>jcs</artifactId>
@@ -158,6 +158,15 @@
 
 		</dependencies>
 		<build>
+	      <resources>
+            	<resource>
+					<directory>src/test-conf</directory>
+					<includes>
+						<include>**/*.properties</include>
+						<include>**/*.ccf</include>
+					</includes>
+					 </resource>
+        </resources>
 			<plugins>
 				<plugin>
 					<groupId>org.jacoco</groupId>

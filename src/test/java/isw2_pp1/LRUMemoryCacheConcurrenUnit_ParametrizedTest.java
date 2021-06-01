@@ -50,8 +50,7 @@ public static void Configure()
  * @exception Exception
  *                If an error occurs
  */
-public void runTestForRegion()
-        throws Exception
+public void runTestForRegion() throws Exception
     {
     	CompositeCacheManager cacheMgr = CompositeCacheManager.getUnconfiguredInstance();
         cacheMgr.configure( "/TestDiskCache.ccf" );
