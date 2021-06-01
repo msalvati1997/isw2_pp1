@@ -1,4 +1,4 @@
 language: java
 sudo: false
 script: 
-  - mvn clean install -Pcoverage  
+  - mvn clean install -Pcoverage -X
