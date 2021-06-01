@@ -97,6 +97,7 @@
 					</includes>
 					 </resource>
         </resources>
+      
   </build>
   <profiles>
  <profile>
