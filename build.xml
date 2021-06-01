@@ -76,6 +76,7 @@
     <path id="run.EventQueueConcurrentLoad_ParametrizedTest (1).classpath">
         <path refid="isw2_pp1.classpath"/>
         <path refid="Maven Dependencies.libraryclasspath"/>
+        <pathelement location="src/test-conf/TestDiskCache.ccf"/>
     </path>
     <path id="run.isw2_pp1.classpath">
         <path refid="isw2_pp1.classpath"/>
