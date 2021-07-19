@@ -98,7 +98,7 @@ public class EventQueueConcurrentLoad_ParameterizedTest  {
 	 *
 	 * @throws IOException
 	 */
-//	@Test(timeout=7000)
+	@Test(timeout=7000)
 	public void runRemoveTest() throws IOException {
 		Assume.assumeTrue(type == Type.REMOVE_TEST);
 		
@@ -111,7 +111,7 @@ public class EventQueueConcurrentLoad_ParameterizedTest  {
 	 * Add remove events to the event queue.
 	 *
 	 */
-	//@Test(timeout=7000)
+	@Test(timeout=7000)
 	public void runStopProcessingTest(){
 		Assume.assumeTrue(type == Type.STOP_PROCESSING_TEST);
 	    queue.stopProcessing();
@@ -125,7 +125,7 @@ public class EventQueueConcurrentLoad_ParameterizedTest  {
 	 * @throws InterruptedException 
 	 * @throws IOException
 	 */
-	//@Test(timeout=7000)
+	@Test(timeout=7000)
 	public void runPutDelayTest() throws InterruptedException, IOException{
 		Assume.assumeTrue(type == Type.PUT_DELAY_TEST);
 		
